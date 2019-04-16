@@ -1,0 +1,761 @@
+* html{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  height: 100%;
+  width: 100%;
+  display: block;
+  margin: 0px;
+}
+a,img {
+  text-decoration: none;
+  color: #fff;
+}
+ul{
+  list-style: none;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size:16px;
+}
+
+@media screen and (min-width:1200px) {
+  header{
+    width: 1366px;
+    margin: auto;
+  }
+  .head{
+    height: 142px;
+    width: 1366px;
+    margin: auto;
+  }
+  .banner{
+    width: 1366px;
+    height: 500px;
+    margin: auto;
+  }
+  .add{
+    background-image: url(../images/banner.jpg);
+    height: 500px;
+    width: 1366px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .admission{
+    width: 350px;
+    height: 400px;
+    border: 2px solid orange;
+    border-radius: 25px;
+    background-color: rgba(65,105,225,0.8);
+    right: 8%;
+    margin: 30px 50px 50px 0;
+    position: fixed;
+  }
+  .admission h1{
+    font-size: 21px;
+    padding: 30px 30px 0 50px;
+    margin: 0px;
+    color: white;
+  }
+  .ic input{
+    height: 20px;
+    width: 250px;
+    background-color: white;
+    opacity: 0.9;
+    border: 0px;
+  }
+  .admission div img{
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+  }
+  .admission div{
+    padding-left: 30px;
+    display: flex;
+    margin-top: 20px;
+  }
+  ::placeholder{
+    padding-left: 30px;
+  }
+  .input{
+    display: flex;
+    margin-left: 10px;
+  }
+  .input input{
+    height: 15px;
+    width: 15px;
+    margin-top: 20px;
+  }
+  .input p{
+    color: white;
+  }
+  .admission button{
+    height: 30px;
+    width: 120px;
+    color: blue;
+    margin: 12px 0 0 110px;
+    border: 2px solid blue;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  .section1 img{
+    height: 350px;
+    width: 760px;
+    padding: 50px 0 0px 50px;
+  }
+  .sec{
+    width: 1366px;
+    margin: auto;
+  }
+  .section{
+    padding-left: 50px;
+  }
+  .section ul li{
+    color: royalblue;
+    list-style-type: disc;
+  }
+  .placement{
+    height: 400px;
+    width: 1366px;
+    margin: auto;
+    background-image: url(../images/placement.jpg);
+    background-size: cover;
+  }
+  .placement h2{
+    padding: 30px 0 30px 50px;
+    color: white;
+  }
+  .placement div{
+    display: flex;
+    padding-left: 50px;
+  }
+  .placement div p{
+    height: 125px;
+    width: 600px;
+    margin: 0px;
+    color: white;
+    padding-left: 50px;
+  }
+  .p2{
+    height: 125px;
+    width: 120px;
+  }
+  .p1{
+    padding: 30px 0 0 50px;
+    height:150px;
+    width:770px;
+  }
+  .Department{
+    width: 1366px;
+    margin: auto;
+    background-color: #e0dcde;
+  }
+  .btech button{
+    height: 50px;
+    width: 700px;
+    background-color: royalblue;
+    border: 6px solid white;
+    cursor: pointer;
+    margin: 30px 0 0 50px;
+    color: white;
+  }
+  .mtech button{
+    height: 50px;
+    width: 700px;
+    background-color: royalblue;
+    border: 6px solid white;
+    cursor: pointer;
+    margin: 30px 0 0 50px;
+    color: white;
+  }
+  .arts button{
+    height: 50px;
+    width: 700px;
+    background-color: royalblue;
+    border: 6px solid white;
+    cursor: pointer;
+    margin: 30px 0 30px 50px;
+    color: white;
+  }
+  .march button{
+    height: 50px;
+    width: 700px;
+    background-color: royalblue;
+    border: 6px solid white;
+    cursor: pointer;
+    margin: 30px 0 0 50px;
+    color: white;
+  }
+  .research button{
+    height: 50px;
+    width: 700px;
+    background-color: royalblue;
+    border: 6px solid white;
+    cursor: pointer;
+    margin: 30px 0 0 50px;
+    color: white;
+  }
+  tr td{
+    height: 50px;
+    width: 700px;
+    cursor: pointer;
+    padding-left: 50px;
+    border: 6px solid white;
+  }
+  td:hover{
+    background-color: royalblue;
+  }
+  table{
+    margin-left: 50px;
+  }
+  .dropdown {
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+    background-color: white;
+    color: black;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #e0dcde;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .show {
+    display: block;
+  }
+  footer{
+    width: 1366px;
+    height: 150px;
+    margin: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/footer1.jpg);
+  }
+  footer div{
+    display: flex;
+    padding: 50px 0 0 500px;
+  }
+  footer div p{
+    color: white;
+    padding-top: 05px
+  }
+}
+@media screen and (min-width:769px) and (max-width:1199px) {
+  header{
+    width: 100%;
+    margin: auto;
+  }
+  .head img{
+    height: 100px;
+    width: 100%;
+  }
+  .banner{
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+  }
+  .ban{
+    background-image: url(../images/banner.jpg);
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .admission{
+    width: 350px;
+    height: 400px;
+    border: 2px solid orange;
+    border-radius: 25px;
+    background-color: rgba(65,105,225,0.8);
+    right: 2%;
+    margin: 30px 50px 50px 0;
+    position: fixed;
+  }
+  .admission h1{
+    font-size: 21px;
+    padding: 30px 30px 0 50px;
+    margin: 0px;
+    color: white;
+  }
+  .ic input{
+    height: 20px;
+    width: 250px;
+    background-color: white;
+    opacity: 0.9;
+    border: 0px;
+  }
+  .admission div img{
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+  }
+  .admission div{
+    padding-left: 30px;
+    display: flex;
+    margin-top: 20px;
+  }
+  ::placeholder{
+    padding-left: 30px;
+  }
+  .input{
+    display: flex;
+    margin-left: 10px;
+  }
+  .input input{
+    height: 15px;
+    width: 15px;
+    margin-top: 20px;
+  }
+  .input p{
+    color: white;
+  }
+  .admission button{
+    height: 30px;
+    width: 120px;
+    color: blue;
+    margin: 12px 0 0 110px;
+    border: 2px solid blue;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  .section1{
+    width: 100%;
+    margin: 50px 600px 0px 50px;
+  }
+  .section1 img{
+    height: 250px;
+    width: 500px;
+  }
+  .sec{
+    width: 100%;
+    margin: auto;
+  }
+  .section{
+    padding-left: 50px;
+  }
+  .section ul li{
+    color: royalblue;
+    list-style-type: disc;
+    margin-right: 500px;
+  }
+  .placement{
+    height: 500px;
+    width: 100%;
+    margin: auto;
+    background-image: url(../images/placement.jpg);
+    background-size: cover;
+  }
+  .placement h2{
+    padding: 30px 0 30px 50px;
+    color: white;
+  }
+  .placement div{
+    display: flex;
+    padding-left: 50px;
+  }
+  .placement div p{
+    height: 125px;
+    width: 600px;
+    margin: 0px;
+    color: white;
+    margin-right: 500px;
+    padding-left: 50px;
+    overflow: hidden;
+  }
+  .p2{
+    height: 125px;
+    width: 120px;
+  }
+  .p1{
+    margin: 100px 500px 0 50px;
+    width:500px;
+  }
+  .Department{
+    width: 100%;
+    margin: auto;
+    background-color: #e0dcde;
+  }
+  .btech button{
+    height: 50px;
+    width: 500px;
+    background-color: royalblue;
+    border: 6px solid white;
+    cursor: pointer;
+    margin: 30px 0 0 50px;
+    color: white;
+  }
+  .mtech button{
+    height: 50px;
+    width: 500px;
+    background-color: royalblue;
+    border: 6px solid white;
+    cursor: pointer;
+    margin: 30px 0 0 50px;
+    color: white;
+  }
+  .arts button{
+    height: 50px;
+    width: 500px;
+    background-color: royalblue;
+    border: 6px solid white;
+    cursor: pointer;
+    margin: 30px 0 30px 50px;
+    color: white;
+  }
+  .march button{
+    height: 50px;
+    width: 500px;
+    background-color: royalblue;
+    border: 6px solid white;
+    cursor: pointer;
+    margin: 30px 0 0 50px;
+    color: white;
+  }
+  .research button{
+    height: 50px;
+    width: 500px;
+    background-color: royalblue;
+    border: 6px solid white;
+    cursor: pointer;
+    margin: 30px 0 0 50px;
+    color: white;
+  }
+  tr td{
+    height: 50px;
+    width: 500px;
+    cursor: pointer;
+    padding-left: 50px;
+    border: 6px solid white;
+  }
+  td:hover{
+    background-color: royalblue;
+  }
+  table{
+    margin-left: 50px;
+  }
+  .dropdown {
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+    background-color: white;
+    color: black;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #e0dcde;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .show {
+    display: block;
+  }
+  footer{
+    width: 100%;
+    height: 150px;
+    margin: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/footer1.jpg);
+  }
+  footer div{
+    display: flex;
+    float: right;
+    padding: 50px 350px 0 50px;
+  }
+  footer div p{
+    color: white;
+    padding-top: 05px
+  }
+}
+@media screen and (max-width:768px){
+  header{
+    width: 100%;
+    margin: auto;
+  }
+  .head img{
+    height: 50px;
+    width: 100%;
+  }
+  .banner{
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+  }
+  .ban{
+    background-image: url(../images/banner.jpg);
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .admission{
+    width: 90%;
+    height: 400px;
+    border: 2px solid orange;
+    border-radius: 25px;
+    background-color: rgba(65,105,225,0.8);
+    right: 2%;
+    margin: 230px 10px 50px 100px;
+    position: absolute;
+  }
+  .admission h1{
+    font-size: 21px;
+    padding: 30px 30px 0 50px;
+    margin: 0px;
+    color: white;
+  }
+  .ic input{
+    height: 20px;
+    width: 400px;
+    background-color: white;
+    opacity: 0.9;
+    border: 0px;
+
+  }
+  .admission div img{
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+  }
+  .admission div{
+    padding-left: 30px;
+    display: flex;
+    margin-top: 20px;
+    margin-right: 30px
+  }
+  ::placeholder{
+    padding-left: 30px;
+  }
+  .input{
+    display: flex;
+    margin-left: 10px;
+  }
+  .input input{
+    height: 15px;
+    width: 15px;
+    margin-top: 20px;
+  }
+  .input p{
+    color: white;
+  }
+  .admission button{
+    height: 30px;
+    width: 120px;
+    color: blue;
+    margin: 12px 0 0 100px;
+    border: 2px solid blue;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  .section1{
+    width: 85%;
+    margin: 460px 30px 0px 30px;
+  }
+  .section1 img{
+    width: 100%;
+  }
+  .sec{
+    width: 100%;
+    margin: auto;
+  }
+  .section{
+    padding-left: 30px;
+  }
+  .section ul li{
+    color: royalblue;
+    list-style-type: disc;
+    margin-right: 30px;
+  }
+  .placement{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background-image: url(../images/placement.jpg);
+    background-size: cover;
+  }
+  .placement h2{
+    padding: 20px 0 20px 30px;
+    color: white;
+  }
+  .placement div {
+
+  }
+  .placement div p{
+    height: 125px;
+    width: 374px;
+    margin: 0px;
+    color: white;
+    margin-right: 500px;
+    padding-left: 30px;
+  }
+  .p2{
+    width: 90%;
+    padding-left: 30px;
+  }
+  .p1{
+    margin: 120px 0 30px 30px;
+    width:90%;
+  }
+  .Department{
+    width: 100%;
+    margin: auto;
+    background-color: #e0dcde;
+  }
+  .btech button{
+    height: 70px;
+    background-color: royalblue;
+    border: 6px solid white;
+    cursor: pointer;
+    margin: 30px 30px 0 30px;
+    color: white;
+  }
+  .mtech button{
+    height: 70px;
+    background-color: royalblue;
+    border: 6px solid white;
+    cursor: pointer;
+    margin: 30px 30px 0 30px;
+    color: white;
+  }
+  .arts button{
+    height: 70px;
+    width: 85%;
+    background-color: royalblue;
+    border: 6px solid white;
+    cursor: pointer;
+    margin: 30px 30px 30px 30px;
+    color: white;
+  }
+  .march button{
+    height: 70px;
+    width: 85%;
+    background-color: royalblue;
+    border: 6px solid white;
+    cursor: pointer;
+    margin: 30px 30px 0 30px;
+    color: white;
+  }
+  .research button{
+    height: 70px;
+    width: 85%;
+    background-color: royalblue;
+    border: 6px solid white;
+    cursor: pointer;
+    margin: 30px 30px 0 30px;
+    color: white;
+  }
+  tr td{
+    height: 50px;
+    width: 500px;
+    cursor: pointer;
+    padding-left: 50px;
+    border: 6px solid white;
+  }
+  td:hover{
+    background-color: royalblue;
+  }
+  table{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .dropdown {
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+    background-color: white;
+    color: black;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #e0dcde;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .show {
+    display: block;
+  }
+  footer{
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/footer1.jpg);
+  }
+  footer div{
+    display: flex;
+    float: right;
+    padding: 20px 50px 0 30px;
+  }
+  footer div p{
+    color: white;
+    padding-top: 05px
+  }
+}
